@@ -1,0 +1,71 @@
+/* Style for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* Light blue background color */
+}
+
+/* Style for the register container */
+.register-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px 40px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px;
+    width: 100%;
+    text-align: center; /* Center the heading and form elements */
+}
+
+/* Heading style */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff; /* Blue color matching the button for consistency */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align form fields to the left */
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold label text */
+    color: #333; /* Dark color for readability */
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 10px; /* Comfortable padding inside input fields */
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Light border around inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 14px; /* Readable font size */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Input field focus styling */
+input:focus {
+    border-color: #007bff; /* Blue border on focus */
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px; /* Ample padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007bff; /* Primary blue color */
+    color: #fff; /* White text on the button */
+    font-size: 16px;
+    cursor: pointer; /* Pointer cursor on*/
+    }
